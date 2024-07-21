@@ -1,0 +1,182 @@
+
+body{
+  background-color: hsl(0, 0%, 11%);
+  background-image: url("https://www.creativefabrica.com/wp-content/uploads/2022/12/23/Common-Notebook-Sheet-Paper-Background-Illustration-54107338-1.png");
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.to-do-list{
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px ;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.tag-selection{
+display: flex;
+justify-content: center;
+gap: 20px;
+margin-top: 20px;
+
+}
+.priority-selection{
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  margin-top: 10px;
+
+  
+  }
+
+.tag{
+  color: green;
+  font-weight: bold;
+}
+.priority{
+  color: green;
+  font-weight: bold;
+}
+
+.tagname{
+  font-size: 20px;
+}
+.priorityname{
+  font-size: 20px;
+}
+
+.task{
+  display: flex;
+  gap: 30px;
+}
+.timestamp{
+  font-size: 20px;
+}
+
+.sort-button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+}
+
+.sort-button:hover {
+  background-color: gray;
+}
+
+h1{
+  color: rgb(236, 126, 0);
+  font-size: 4rem;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+
+}
+
+.add-button{
+  background-color: hsl(125, 100%, 25%);
+}
+
+.add-button:hover{
+  background-color: hsl(125, 100%, 15%);
+}
+
+
+
+.delete-button:hover{
+  background-color: hsl(0, 100%, 29%);
+  transition: background-color 0.5s ease-in-out; 
+}
+
+.update-button:hover{
+  background-color: hsl(49, 88%, 53%);
+  transition: background-color 0.5s ease-in-out; 
+}
+
+
+
+.up-button:hover{
+  background-color:hsl(192, 100%, 15%);
+  transition: background-color 0.5s ease-in-out; 
+}
+
+
+
+.down-button:hover{
+  background-color:hsl(192, 100%, 15%) ;
+  transition: background-color 0.5s ease-in-out; 
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsl(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+
+}
+
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  /* background-color: hsl(0, 0%, 94%); */
+  margin-bottom: 0px;
+  border-bottom: 2px solid hsla(0, 0%, 0%, 0.75);
+  display: flex;
+  align-items: center;
+border-radius: 5px;
+
+
+}
+
+.text {
+  flex: 1;
+  
+}
+
+.delete-button, .up-button,.update-button, .down-button{
+  padding: 4px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+
+.high-priority {
+  color: red;
+}
+
+.medium-priority {
+  color: orange;
+}
+
+.low-priority {
+  color: green;
+}
